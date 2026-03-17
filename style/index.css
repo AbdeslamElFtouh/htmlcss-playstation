@@ -57,6 +57,17 @@
     height: auto;
 }
 
+.img-ps-plus {
+    width: 300px;
+    height: auto;
+}
+
+.img-ps-plus-games {
+    width: 90%;
+    height: auto;
+    display: none;
+}
+
 /* Sezione 1: returnal */
 
 .overlay-container {
@@ -85,7 +96,7 @@
 
 /* Sezione 3 */
 
-.img-it-takes-two-overlay{
+.img-it-takes-two-overlay {
     width: 230px;
     height: 160px;
 }
@@ -113,7 +124,11 @@
 
 /* Media Query 768px */
 
-@media screen and (min-width:768px) {}
+@media screen and (min-width:768px) {
+    .img-ps-plus-games {
+        display: inline;
+    }
+}
 
 /* Media Query 992px */
 
