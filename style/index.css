@@ -115,6 +115,27 @@
     transition: 0.2s;
 }
 
+/* Sezione 7 */
+
+.discount-card:hover {
+    cursor: pointer;
+    border-bottom: 3px solid var(--colore-primario);
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+/* Sezione 8 */
+
+.img-ps-now {
+    width: 300px;
+    height: auto;
+}
+
+.img-ps-now-games {
+    width: 90%;
+    height: auto;
+    display: none;
+}
 
 
 
@@ -128,6 +149,12 @@
     .img-ps-plus-games {
         display: inline;
     }
+
+    .img-ps-now-games {
+        display: inline;
+    }
+
+
 }
 
 /* Media Query 992px */
