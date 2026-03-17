@@ -1,5 +1,10 @@
 /* utility */
 
+.bg-img {
+    height: 80vh;
+    width: 100%;
+    object-fit: cover;
+}
 
 
 /* Variabili */
@@ -22,11 +27,6 @@
 
 /* img */
 
-.bg-img {
-    height: 70vh;
-    width: 100%;
-    object-fit: cover;
-}
 
 .img-game-cover {
     max-width: 100%;
@@ -55,32 +55,13 @@
     height: auto;
 }
 
-/* Media Query 768px */
-
-@media screen and (min-width:768px) {}
-
-/* Media Query 992px */
-
-@media screen and (min-width:992px) {
-    .returnal-description {
-        max-width: 30%;
-    }
-
-    .item-container {
-        padding: 0 40px;
-    }
-
-    .item-title {
-        display: block;
-    }
-}
-
 /* Sezione 1: returnal */
 
 .overlay-container {
     top: 40%;
     left: 0;
 }
+
 
 /* Sezione 2 */
 
@@ -98,8 +79,19 @@
     display: none;
 }
 
+/* Sezione 3 */
 
+.img-it-takes-two-overlay{
+    width: 230px;
+    height: 160px;
+}
 
+.it-takes-tw-overlay-container {
+    top: 10%;
+    left: 0;
+}
+
+/* Sezione 4 */
 
 
 
