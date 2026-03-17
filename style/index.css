@@ -68,6 +68,28 @@
     display: none;
 }
 
+.img-ps-now {
+    width: 300px;
+    height: auto;
+}
+
+.img-ps-now-games {
+    width: 90%;
+    height: auto;
+    display: none;
+}
+
+.img-social-media{
+    width: 100px;
+}
+
+.img-social-media:hover{
+    cursor: pointer;
+    border-bottom: 3px solid var(--colore-primario);
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
 /* Sezione 1: returnal */
 
 .overlay-container {
@@ -124,18 +146,7 @@
     transition: 0.2s;
 }
 
-/* Sezione 8 */
 
-.img-ps-now {
-    width: 300px;
-    height: auto;
-}
-
-.img-ps-now-games {
-    width: 90%;
-    height: auto;
-    display: none;
-}
 
 
 
