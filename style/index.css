@@ -37,6 +37,8 @@
 .img-game-cover:hover {
     cursor: pointer;
     border: 3px solid var(--colore-primario);
+    transform: scale(1.1);
+    transition: 0.2s;
 
 }
 
@@ -73,6 +75,8 @@
 .item-container:hover {
     cursor: pointer;
     border-bottom: 3px solid var(--colore-primario);
+    transform: scale(1.1);
+    transition: 0.2s;
 }
 
 .item-title {
@@ -93,7 +97,12 @@
 
 /* Sezione 4 */
 
-
+.new-game-cover:hover {
+    cursor: pointer;
+    border: 3px solid var(--colore-primario);
+    transform: scale(1.1);
+    transition: 0.2s;
+}
 
 
 
