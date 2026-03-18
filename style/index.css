@@ -1,10 +1,10 @@
-/* utility */
-
-.bg-img {
-    height: 80vh;
-    width: 100%;
-    object-fit: cover;
+/* Body */
+body{
+    font-family: "arimo";
+    font-size: 18px;
 }
+
+/* utility */
 
 
 /* Variabili */
@@ -27,6 +27,11 @@
 
 /* img */
 
+.bg-img {
+    height: 80vh;
+    width: 100%;
+    object-fit: cover;
+}
 
 .img-game-cover {
     max-width: 100%;
@@ -39,7 +44,6 @@
     border: 3px solid var(--colore-primario);
     transform: scale(1.1);
     transition: 0.2s;
-
 }
 
 .img-overlay {
