@@ -51,6 +51,11 @@ body{
     width: 190px;
 }
 
+.img-it-takes-two-overlay {
+    width: 230px;
+    height: 160px;
+}
+
 .img-main-item {
     width: 100%;
     height: auto;
@@ -94,6 +99,18 @@ body{
     transition: 0.2s;
 }
 
+.img-logo-footer{
+    width: 100px;
+}
+
+.img-lang-globe{
+    width: 20px;
+}
+
+.img-sie-logo{
+    width: 160px;
+}
+
 /* Sezione 1: returnal */
 
 .overlay-container {
@@ -122,11 +139,6 @@ body{
 
 /* Sezione 3 */
 
-.img-it-takes-two-overlay {
-    width: 230px;
-    height: 160px;
-}
-
 .it-takes-tw-overlay-container {
     top: 10%;
     left: 0;
@@ -150,9 +162,11 @@ body{
     transition: 0.2s;
 }
 
+/* Footer */
 
-
-
+.country{
+    transform: translateY(15%);
+}
 
 
 
